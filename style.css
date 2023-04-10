@@ -1,0 +1,690 @@
+@import url('https://fonts.google.com/specimen/Montserrat?preview.size=37#standard-styles');
+:root{
+    --basic_text: rgb(255, 255, 255);
+    --secondary_text: rgb(100, 100, 100);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+iframe { 
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+body{
+    /* background-image: url(./img/background_img.jpeg); */
+    background: radial-gradient(circle,
+        rgba(92, 92, 92, 0.32),
+        rgba(0, 0, 0, 10)
+      ),url(./img/rabstol_net_chess_18.jpg);
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    background-attachment: fixed;
+}
+header p{
+    color: var(--basic_text);
+}
+
+nav{
+    /* background-color: rgba(255, 202, 128, 0.936); */
+    font-size: x-large;
+}
+.nav_spisok{
+    list-style-type: none;
+    display: flex;
+    padding: 0 ;
+    justify-content: space-around;
+    width: 90%;
+}
+.nav_text{
+    display: flex;
+    flex-direction: column;
+}
+.nav_cabinet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav_spisok li a{
+    color: var(--basic_text);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.nav_text a{
+    text-decoration: none;
+    color: var(--basic_text);
+}
+.nav_busket a{
+    text-decoration: none;
+    color: var(--basic_text);
+}
+.nav_busket{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    position: relative;
+}
+.icon_link{
+    color: var(--basic_text);
+    text-decoration: none;
+    background-color: rgba(255, 202, 128, 0.936);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 200px;
+}
+.icon_text{
+    font-size: 20px;
+    line-height: 10px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.icon_text_2{
+    font-size: 15px;
+    line-height: 7px;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+.img_icon{
+    background-color: rgba(255, 202, 128, 0.936);
+    opacity: .8;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+}
+.from_2022{
+    color: var(--secondary_text);
+    font-size: 15px;
+}
+.lessons:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+.companies:hover{
+    opacity: .6;
+    transition: opacity .5s;
+}
+.fees:hover{
+    opacity: .6;
+    transition: opacity .5s;
+}
+.tournaments:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+.contacts:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+.tasks:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+.schedule:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+.payment:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+#text_lessons{
+    color: var(--basic_text);
+    margin-left: 2cm ;
+    margin-top: 350px;
+    position: absolute;
+}
+.under_icon{
+    position: relative;
+}
+#activities{
+    color: var(--basic_text);
+    margin-left: 18.5cm ;
+    margin-top: 350px;
+    position: absolute;
+}
+.container_of_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 430px;
+}
+
+.box_1{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 1cm;
+    background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) );
+     border-radius: 10px;
+     position: relative;
+}
+.box_1 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: var(--secondary_text);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+.schedule_of_classes{
+    color:var(--basic_text) ;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.box_1:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_2{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    /* background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) ); */
+     border-radius: 10px;
+     position: relative;
+}
+.box_2 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color:var(--basic_text) ;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_2:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_3{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) );
+     border-radius: 10px;
+     position: relative;
+}
+.box_3 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_3:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_4{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    /* background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) ); */
+     border-radius: 10px;
+     position: relative;
+}
+.box_4 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text) ;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_4:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_5{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) );
+     border-radius: 10px;
+     position: relative;
+}
+.box_5 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_5:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_6{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 1cm;
+    margin-top: 20px;
+    /* background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) ); */
+     border-radius: 10px;
+     position: relative;
+}
+.box_6 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_6:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_7{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    margin-top: 20px;
+    background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) );
+     border-radius: 10px;
+     position: relative;
+}
+.box_7 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_7:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_8{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    margin-top: 20px;
+    /* background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) ); */
+     border-radius: 10px;
+     position: relative;
+}
+.box_8 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_8:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.box_9{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: fit-content; */
+    width: 185px;
+    height: 185px;
+    color: var(--basic_text);
+    margin-left: 0.5cm;
+    margin-top: 20px;
+    background:linear-gradient(
+     40deg ,rgb(35, 35, 35), rgb(92, 92, 92) );
+     border-radius: 10px;
+     position: relative;
+}
+.box_9 a{
+    text-decoration: none;
+}
+.group_and_individual{
+    color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    /* border: 2px solid white; */
+}
+.schedule_of_classes{
+    color: var(--basic_text);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    /* border: 2px solid white; */
+}
+.box_9:hover{
+    background-image: url(./img/pawns_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(179, 108, 21);
+    box-shadow: 0px 10px 10px rgb(179, 108, 21);
+}
+
+.arrow_and_more{
+    position: relative;
+    width: 18%;
+    margin-top: 150px;
+    margin-left: 20px;
+    /* border: 5px #fff solid; */
+}
+.more_about_chess_site p {
+    position: absolute;
+    /* bottom: 20px; */
+    right: 10px;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    font-size: 15px;
+}
+.more_about_chess_site p:hover{
+    color: var(--basic_text);
+    transition: 0.7s;
+}
+
+.lineArrow_box {
+    position: relative;
+    /* border: 1px solid red; */
+    padding-left: 50px;
+  }
+  
+  .lineArrow {
+    width: 2px;
+    height: 50px;
+    background-color: var(--secondary_text);
+    position: absolute;
+    /* margin-top: 60%; */
+  }
+  
+  .lineArrow::before {
+    content: "\2304";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: var(--secondary_text);
+  }
+.otdel_1{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+    margin-top: 200px;
+}
+.otdel_1_img{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: var(--basic_text);
+}
+.otdel_1 p{
+    color: var(--basic_text);
+}
+.otdel_1_text{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    line-height: 20px;
+}
+.otdel_1_text_1{
+    position: absolute;
+    font-size: 50px;
+    top: 0px;
+    left: 580px;
+}
+.otdel_1_text_2{
+    position: absolute;
+    font-size: 50px;
+    top: 50px;
+    left: 580px;
+}
+.otdel_1_text_3{
+    position: absolute;
+    font-size: 50px;
+    top: 100px;
+    left: 580px;
+}
+.chess_clocks_background{
+    color: var(--basic_text);
+    width: 400px;
+}
+
+.chess_clocks{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 590px;
+}
+
+.group{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 790px;
+}
+
+.laptop{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 990px; 
+}
+.chess_clocks_text{
+    font-size: 15px;
+    position: absolute;
+    top: 230px;
+    left: 650px;
+}
+.chess_clocks_text_1{
+    font-size: 15px;
+    position: absolute;
+    top: 250px;
+    left: 650px;
+}
+
+.group_text{
+    font-size: 15px;
+    position: absolute;
+    top: 230px;
+    left: 850px;
+}
+.group_text_1{
+    font-size: 15px;
+    position: absolute;
+    top: 250px;
+    left: 850px;
+}
+
+.laptop_text{
+    font-size: 15px;
+    position: absolute;
+    top: 230px;
+    left: 1050px;
+}
+.laptop_text_1{
+    font-size: 15px;
+    position: absolute;
+    top: 250px;
+    left: 1050px;
+}
+.otdel_1_link{
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+    color: var(--basic_text);
+    text-decoration: none;
+    background-color: rgba(255, 202, 128, 0.936);
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.otdel_2{
+    /* position: relative; */
+    background-color:rgba(251, 207, 136, 0.936);
+    /* height: 1050px; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+}
+.otdel_2_iframe{
+    /* position: absolute;
+    right: 30px;
+    top: 100px; */
+    border: black solid 2px;
+    display: flex;
+    flex-direction: row;
+}
+.otdel_2_caption{
+    /* position: absolute; */
+    color: var(--basic_text);
+}
